@@ -15,7 +15,7 @@ Setup:
 2. Set permisions of script to be executed
    $chmod 755 volumio-print.sh
 3. Disable kernel output to ttyAMA0
-   $sudo systemctl mask serial-getty@ttyAMA0.service)
+   $sudo systemctl mask serial-getty@ttyAMA0.service
 4. Disable shell output to ttyAMA0 in /boot/cmndline.txt
    delete line "console=serial0,115200"
 5. Disable Bluetooth use of ttyAMA0 in /boot/config.txt
