@@ -1,6 +1,7 @@
 # volumio-uart-metadata
 
 Description:
+
 This bash shell script prints JSON music playback metadata from Volumio music server on Raspberry Pi 
 out of UART ttyAMA0 for a listening microcontroller driven OLED display (or whatever other display), every second.
 
