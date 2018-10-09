@@ -13,7 +13,7 @@ Prerequisites:
 Setup:
 1. Copy script to usr/local/bin/
 2. Set permisions of script to be executed
-   chmod 755 volumio-print.sh
+   $chmod 755 volumio-print.sh
 3. Disable kernel output to ttyAMA0
    $sudo systemctl mask serial-getty@ttyAMA0.service)
 4. Disable shell output to ttyAMA0 in /boot/cmndline.txt
@@ -23,6 +23,7 @@ Setup:
 6. Set to script to execute at startup in rc.local
    $sudo nano /etc/rc.local
    add line "/usr/local/bin/vol-print.sh &"
+7. $reboot
    
   UART JSON Output:
   
