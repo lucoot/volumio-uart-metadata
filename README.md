@@ -24,13 +24,23 @@ Setup:
    add line "/usr/local/bin/vol-print.sh &"
    
   UART JSON Output:
+  
   {
+  
   "status": "pause",
+  
   "title": "The Game of Love",
+  
   "artist": "Daft Punk",
+  
   "album": "Random Access Memories",
+  
   "seek": "60765",
+  
   "duration": "322",
+  
   "samplerate": "44.1 KHz",
+  
   "bitdepth": "16 bit"
+  
 }
