@@ -27,7 +27,7 @@ Setup:
    
   UART JSON Output:
   
-  {
+{
   
   "status": "pause",
   
@@ -44,5 +44,11 @@ Setup:
   "samplerate": "44.1 KHz",
   
   "bitdepth": "16 bit"
+  
+  "wifi": "63",
+   
+  "ethernet": "123.1.2.1",
+  
+  "system": "active"
   
 }
