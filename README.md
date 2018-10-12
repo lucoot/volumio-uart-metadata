@@ -20,6 +20,7 @@ Setup:
    delete line "console=serial0,115200"
 5. Disable Bluetooth use of ttyAMA0 in /boot/config.txt
    add line "dtoverlay=pi3-disable-bt"
+   add line "enable_uart=1"
 6. Set script to execute at startup in rc.local
    $sudo nano /etc/rc.local
    add line "/usr/local/bin/vol-print.sh &"
